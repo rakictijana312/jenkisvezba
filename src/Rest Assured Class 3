@@ -1,0 +1,26 @@
+Rest Assured Class 3
+
+Recap:
+
+-continued with the hard coded examples
+-we retrieved all employees and performed some assertions
+-Principles of Rest Assured
+    Follows a BDD approach
+    Given- Prepare a request
+    When- Make the request
+    Then- performs assertions/ verifications
+    can also use words like And depending on the
+
+Hamcrest Matchers?
+ JsonPath vs jsonPath()
+
+ JsonPath is a class
+
+ jsonPath() is a method that belongs to JsonPath class
+
+ Cucumber scenarios - describe business rules/ requirements or the behavior that user will take on an application
+
+ Example: Given a user is on the home page, When the user logs in, Then the user sees landing page
+
+ TDD - recommended way
+

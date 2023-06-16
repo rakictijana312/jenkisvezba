@@ -1,0 +1,78 @@
+Recap -
+Cucumber - BDD
+
+Given - pre condition
+When - actions
+And - continues action, precondition, result
+Then - expected result/ outcome
+But - exclusion
+
+Feature - to write scenarios
+Steps - to link feature file scenarios
+pages - to define locators and other function
+
+Definition of done - when it is ready to deploy on production after testing
+Definition of ready - when user story is clear, testable, defined and sized.
+
+US 98903 - Login -
+valid admin credentials
+valid ess employee credentials
+valid username and invalid password for error check
+
+recap -
+Runner class -
+features -
+glue -
+monochrome -
+dry run -
+strict
+tags
+hooks
+background
+parameters passing from feature file
+TDD approach in cucumber
+
+recap - class 3
+hooks - we define our pre-condition and post condition here with the tags @Before & @After
+glue - checks all the step definition implementation of gherkin steps
+dry run  - if it is set to true, no actual execution happens, quickly scan all the  files to check
+steps are there
+monochrome - makes console log more readable
+tags - we control the flow of execution of our scenarios with the help of tags
+background - we define repeated steps inside it for respective feature file
+passing data from feature file scenario
+
+scenario-outline
+"<firstname>"
+Examples:
+|firstname|lastname|
+
+
+
+user story - admin user should be able to see all the dashboard options
+
+homework - admin user should be able to modify the details of the employee
+
+recap -
+via parameters -
+via data table -
+via excel file -
+
+tags -
+
+
+maven cucumber report
+add plugin to runner class
+it will generate .json file
+
+2 add - maven cucumber plugin to pom xml file
+specify some configurations in pom file
+
+to attach screenshot to my cucumber report
+
+
+
+
+
+
+

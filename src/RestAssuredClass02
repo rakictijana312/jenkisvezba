@@ -1,0 +1,31 @@
+Rest Assured Class 02
+
+Recap
+    1.What is Rest Assured
+        - A java library to automate REst API's
+
+    2. What are the principles of Rest Assured?
+        - Follows a BDD approach
+        -Given- prepare the request
+        -When- make the call/ request/ hit endpoint
+        -Then- Verification/ Assertions
+
+    3. We may have to manually import some classes
+        -import static io.restassured.RestAssured.*;
+
+    4. baseURI it is the same as baseURL (or URI without the endpoint)
+
+    5.Runner collection
+
+    6.What is a runners?
+        - A file/class/module where you can set specific specifications for your test cases execution
+
+
+    -ANALYZE
+
+    We imported all these classes manually
+
+    import static io.restassured.RestAssured.*;
+    import static org.hamcrest.Matchers.*;
+    import org.junit.FixMethodOrder;
+    import org.junit.runners.MethodSorters;
